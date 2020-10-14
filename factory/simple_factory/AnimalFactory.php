@@ -17,7 +17,7 @@ class AnimalFactory
                 break;
 
             case "2":
-                return new Dog();
+                return new DogObserver();
                 break;
 
             case "3":

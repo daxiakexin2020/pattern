@@ -8,6 +8,6 @@ class DogFactory implements FactoryInterface
    public function operation()
    {
        // TODO: Implement operation() method.
-       return new Dog();
+       return new DogObserver();
    }
 }
